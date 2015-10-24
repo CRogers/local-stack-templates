@@ -93,3 +93,6 @@ spec = do
 
 {-# START_FILE test/Spec.hs #-}
 {-# OPTIONS_GHC -F -pgmF hspec-discover -optF --module-name=Spec #-}
+
+{-# START_FILE .gitignore #-}
+.stack-work/
